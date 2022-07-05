@@ -1,0 +1,694 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+#borda {
+    width: 100%;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.70);
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+
+.indices {
+    color: white;
+    display: inline-flex;
+    margin-left: 1.1em;
+    position: relative;
+    bottom: 10px;
+
+}
+
+#home {
+    margin-left: 10em;
+}
+#cadeado{
+    border-left: 1px dashed rgba(255,255,255,.2);
+    padding-left: 1em;
+    margin-right:0.65em;
+
+}
+
+#img {
+
+    margin-left: 395px;
+    margin-top: 10px;
+}
+
+#banner {
+    z-index: -15;
+    height: 32em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#cotemig {
+    color: white;
+    font-size: 2.375em;
+    font-weight: 900;
+    position: absolute;
+    left: 375px;
+    top: 125px;
+}
+
+#inovador {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    left: 375px;
+    top: 210px;
+}
+
+#conheca {
+    color: white;
+    background-color: #40aa0b;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    left: 375px;
+    top: 275px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-align: center;
+    width: 310px;
+    height: 50px;
+}
+
+#1 {
+    color: #111;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 450px;
+}
+
+#2 {
+    font-size: 18px;
+    color: #424244;
+    text-align: center;
+    position: relative;
+    top: 430px;
+}
+
+#Flex1 {
+    display: flex;
+    position: absolute;
+    left: 310px;
+    top: 700px;
+}
+
+.imgEspecializacoes {
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#cTecnico {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+    z-index: 10;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+
+#emTecnico {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+}
+
+#emT {
+    border-radius: 10px;
+    position: relative;
+    bottom: 135px;
+    left: 20px;
+}
+
+#refG {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 130px;
+    left: 80px;
+}
+
+#refGoogle {
+    border-radius: 10px;
+    position: relative;
+    bottom: 175px;
+    left: 20px;
+}
+
+#graduacoes {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+    z-index: 10;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+
+#pGraduacoes {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+    z-index: 10;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+
+#cursosMCD {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+    z-index: 10;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+
+#SI {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 55px;
+    left: 65px;
+}
+
+#imgSI {
+    border-radius: 10px;
+    position: relative;
+    bottom: 95px;
+    left: 10px;
+}
+
+#ADS {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 90px;
+    left: 65px;
+}
+
+#imgADS {
+    border-radius: 10px;
+    position: relative;
+    bottom: 140px;
+    left: 10px;
+}
+
+#CC {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 125px;
+    left: 65px;
+}
+
+#imgCC {
+    border-radius: 10px;
+    position: relative;
+    bottom: 165px;
+    left: 10px;
+}
+
+#posDSBG {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 65px;
+    left: 65px;
+}
+
+#imgPOSDSBG {
+    border-radius: 10px;
+    position: relative;
+    bottom: 110px;
+    left: 10px;
+}
+
+#posDFSM {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 115px;
+    left: 65px;
+}
+
+#imgPOSDFSM {
+    border-radius: 10px;
+    position: relative;
+    bottom: 175px;
+    left: 10px;
+}
+
+#CLAR {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 90px;
+    left: 65px;
+}
+
+#imgCLAR {
+    border-radius: 10px;
+    position: relative;
+    bottom: 133px;
+    left: 10px;
+}
+
+#nUnidades {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #111;
+    position: relative;
+    top: 835px;
+}
+
+#descricao {
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+    position: relative;
+    top: 850px;
+}
+
+#imagensUnidadesFLex {
+    display: flex;
+    position: absolute;
+    left: 310px;
+    top: 1350px;
+}
+
+.imagensUnidades {
+    margin: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#colegioB {
+    font-size: 20px;
+    font-weight: bold;
+    color: #424242;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+#enderecoB {
+    font-size: 16px;
+    font-style: normal;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+}
+
+#cB {
+    position: relative;
+    top: 13px;
+}
+
+#colegioF {
+    font-size: 20px;
+    font-weight: bold;
+    color: #424242;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+#enderecoF {
+    font-size: 16px;
+    font-style: normal;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+}
+
+#cF {
+    position: relative;
+    top: 13px;
+}
+
+#escritorio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #424242;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+#enderecoE {
+    font-size: 16px;
+    font-style: normal;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+}
+
+#cE {
+    position: relative;
+    top: 13px;
+}
+
+#cAtendimento {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e2e2e;
+    position: relative;
+    top: 1300px;
+}
+
+#telefone {
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    color: #40aa0b;
+    position: relative;
+    top: 1230px;
+}
+
+#imgTelefone {
+    position: relative;
+    top: 1305px;
+    left: 775px;
+}
+
+#NN {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #111;
+    position: relative;
+    top: 1300px;
+}
+
+#flexNN {
+    display: flex;
+    position: absolute;
+    top: 2030px;
+    left: 310px;
+}
+
+.imagensNN {
+    margin: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#docCotemig {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+    bottom: 140px;
+}
+
+#att23 {
+    color: #ffffff;
+    font-size: 0.75em;
+    position: relative;
+    left: 25px;
+    bottom: 140px;
+}
+
+#confira {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+    bottom: 140px;
+}
+
+#att29 {
+    color: #ffffff;
+    font-size: 0.75em;
+    position: relative;
+    left: 25px;
+    bottom: 140px;
+}
+
+#cnsd {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+    bottom: 160px;
+}
+
+#att14 {
+    color: #ffffff;
+    font-size: 0.75em;
+    position: relative;
+    left: 25px;
+    bottom: 160px;
+}
+
+#connect {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+    bottom: 160px;
+}
+
+#att7 {
+    color: #ffffff;
+    font-size: 0.75em;
+    position: relative;
+    left: 25px;
+    bottom: 160px;
+}
+
+#fundoPreto {
+    width: 100%;
+    height: 455px;
+    background-color: #151515;
+    position: relative;
+    top: 1750px;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+}
+
+li {
+    margin: 15px;
+}
+
+.sNos {
+    font-size: .875em;
+    color: #bdbdbd;
+    margin-left: 300px;
+    margin-bottom: 15px;
+    text-align: left;
+    position: relative;
+    top: 50px;
+
+}
+
+#sobreN {
+    font-size: 1.125em;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+
+}
+
+.nCursos {
+    font-size: .875em;
+    color: #bdbdbd;
+    margin-left: 500px;
+    margin-bottom: 15px;
+    text-align: left;
+    position: relative;
+    bottom: 110px;
+}
+
+#nossosCursos {
+    font-size: 1.125em;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    bottom: 125px;
+
+}
+
+.outros {
+    font-size: .875em;
+    color: #bdbdbd;
+    margin-left: 810px;
+    margin-bottom: 15px;
+    text-align: left;
+    position: relative;
+    bottom: 275px;
+}
+
+#tOutros {
+    font-size: 1.125em;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    bottom: 290px;
+
+}
+
+#comeco {
+    font-size: 16px;
+    color: #f5f5f5;
+    font-weight: bold;
+    position: absolute;
+    bottom: 375px;
+    right: 490px;
+}
+
+#oCotemig {
+    font-size: 16px;
+    color: #9e9e9e;
+    position: absolute;
+    bottom: 297px;
+    right: 372px;
+}
+
+#crie {
+    font-size: .875em;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+    background: #40aa0b;
+    position: absolute;
+    bottom: 250px;
+    right: 355px;
+    width: 383px;
+    height: 45px;
+    padding: 1em;
+}
+
+#lgCotemig {
+    position: absolute;
+    bottom: 115px;
+    left: 310px;
+
+}
+
+#creditos {
+    font-size: .75em;
+    color: #fff;
+    position: absolute;
+    bottom: 55px;
+    left: 310px;
+
+}
+#flexRedesSE{
+    display: flex;
+    position: absolute;
+    right: 750px;
+    bottom: 115px;
+    
+}
+#facebookC{
+    background: url(https://www.cotemig.com.br/assets/img/icons/fb-icon.svg) #4460a0 no-repeat center center;
+    width: 68px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#instagramC{
+    background: url(https://www.cotemig.com.br/assets/img/icons/insta.svg)#fff no-repeat center center;
+    width: 68px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#linkedinC{
+    background: url(https://www.cotemig.com.br/assets/img/icons/linkedin.svg)#007ab9 no-repeat center center;
+    width: 68px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#twitterC{
+    background: url(https://www.cotemig.com.br/assets/img/icons/twitter.svg) #00aaec no-repeat center center;;
+    width: 68px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#cCotemig{
+    font-size: 16px;
+    color: #f5f5f5;
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
+    left: 120px;
+}
+
+#flexRedesFC{
+    display: flex;
+    position: absolute;
+    right: 370px;
+    bottom: 115px;
+    
+}
+#facebookF{
+    background: url(https://www.cotemig.com.br/assets/img/icons/fb-icon.svg) #4460a0 no-repeat center center;
+    width: 68px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#instagramF{
+    background: url(https://www.cotemig.com.br/assets/img/icons/insta.svg)#fff no-repeat center center;
+    width: 68px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#linkedinF{
+    background: url(https://www.cotemig.com.br/assets/img/icons/linkedin.svg)#007ab9 no-repeat center center;
+    width: 68px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#twitterF{
+    background: url(https://www.cotemig.com.br/assets/img/icons/twitter.svg) #00aaec no-repeat center center;;
+    width: 68px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#fCotemig{
+    font-size: 16px;
+    color: #f5f5f5;
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
+    left: 149   px;
+}
